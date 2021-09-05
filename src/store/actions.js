@@ -61,7 +61,6 @@ const initSignup = (userName, emailId, password, history) => {
         }).then((result) => {
             dispatch(_signup(result));
         }).catch((err) => {
-            console.log(err.response)
             dispatch(_error(err.response));
             toast.error(err.response.data)
         })
