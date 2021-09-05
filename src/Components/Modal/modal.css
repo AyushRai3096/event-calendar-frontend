@@ -1,0 +1,48 @@
+.icn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    fill: #fff;
+}
+
+/* .save-button {
+  float: right;
+  color: "#2c3e50";
+} */
+.toggle {
+  margin-left: 20px;
+  color: "#2c3e50";
+}
+
+.header-div {
+  margin-left: 100px;
+}
+
+.title-div {
+  margin-top: 50px;
+}
+#all-day {
+  color: red;
+}
+#modal-title {
+  word-wrap: break-word;
+}
+
+#description {
+  margin-left: 10px;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+}
+#title {
+  margin-left: 10px;
+}
+
+ul span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
