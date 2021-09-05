@@ -14,7 +14,6 @@ import DatePicker from "react-datepicker";
 import './modal.css';
 import "react-datepicker/dist/react-datepicker.css";
 import moment from 'moment-timezone';
-import { Navbar } from 'react-bootstrap';
 
 function rand() {
     return Math.round(Math.random() * 20) - 10;

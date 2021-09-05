@@ -60,6 +60,7 @@ const initSignup = (userName, emailId, password, history) => {
             password
         }).then((result) => {
             dispatch(_signup(result));
+            toast.success("Successully created account. Please login!")
         }).catch((err) => {
             dispatch(_error(err.response));
             toast.error(err.response.data)
